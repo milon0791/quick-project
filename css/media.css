@@ -1,0 +1,139 @@
+@media(max-width: 1200px){
+	.overviews_content h1 {
+    text-align: center;
+    font-size: 55px;
+    line-height: 1.1;
+	}
+	.service {
+    padding: 65px 25px;
+	}
+	.service h3 {
+    font-size: 23px;
+    padding-bottom: 10px;
+	}
+	.service p {
+    font-size: 15px;
+}
+}
+
+@media(max-width: 1200px){
+	.overviews_content h1 {
+    font-size: 40px;
+}
+	.overviews_content p {
+    max-width: 650px;
+}
+.overviews_content img {
+    height: 400px;
+}
+.col-1-2 h2 {
+    font-size: 35px;
+    line-height: 1.1;
+}
+.col-1-2 p {
+    font-size: 14px;
+}
+.container {
+    width: 750px;
+}
+.service {
+    padding: 40px 15px;
+}
+.service h3 {
+    font-size: 21px;
+    padding-bottom: 8px;
+}
+}
+
+@media(max-width: 992px){
+	.container {
+    width: 100%;
+    padding: 0 50px;
+}
+.overviews_content p {
+    max-width: 460px;
+}
+.overviews_content img {
+    height: 350px;
+}
+.col-1-2 h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.services_section {
+    width: calc(100% - 100px);
+}
+nav {
+    width: calc(100% - 100px);
+}
+.service img {
+    height: 120px;
+}
+.overviews_content img {
+    height: 300px;
+}
+.service h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.service p {
+    font-size: 12px;
+}
+.col-1-3 {
+    padding: 5px;
+}
+}
+
+@media(max-width: 767px){
+	nav {
+    width: 100%;
+    padding: 10px 0;
+}
+.logo {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    flex-basis: 100%;
+    padding-top: 10px;
+}
+.nav ul {
+    justify-content: center;
+    list-style: none;
+}
+.nav ul li a {
+    padding: 5px 15px;
+    font-size: 20px;
+}
+.overviews_content h1 {
+    font-size: 14px;
+}
+.overviews_content p {
+    font-size: 9px;
+}
+.col-1-2 {
+    flex-basis: 100%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-1-2 p {
+    font-size: 14px;
+}
+.col-1-3 {
+    flex-basis: 100%;
+    padding: 5px;
+}
+.service img {
+    margin: auto;
+}
+.service h3 {
+    text-align: center;
+}
+.service p {
+    text-align: center;
+}
+}

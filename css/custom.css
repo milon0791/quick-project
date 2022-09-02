@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Poppins:wght@800;900&family=Raleway:wght@100;200;400;500;600;700;800;900&display=swap');
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+vCenter{
+	align-items: center;
+}
+hCenter{
+	justify-content: center;
+}
+
+header{
+    border-bottom: 2px solid #3b506c2e;
+}
+nav{
+    align-items: center;
+    width: calc(100% - 200px);
+    margin: auto;
+    padding: 20px 0;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo a{}
+.logo a img{}
+
+.nav{
+    flex-basis: 80%;
+}
+.nav ul{
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav ul li{}
+.nav ul li a{
+	text-decoration: none;
+	padding:  10px;
+	color: #3b506c;
+	font-size: 18px;
+	border-radius: 10px;
+	transition-duration: 0.3s;}
+.nav ul li a:hover{
+	background-color: #3b506c;
+	color: #fff;
+
+}
+
+.overviews_section{
+    padding: 20px 0;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.overviews_content{}
+.overviews_content h1{
+	text-align: center;
+	font-size: 70px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #3b506c;
+	}
+.overviews_content h1 span{
+    display: block;
+    color: #0c66ff;
+}
+.overviews_content p{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+.overviews_content img{
+    margin: auto;
+    height: 600px;
+}
+
+
+.feature_section{
+    margin: 20px 0;
+  
+}
+.col-1-2{}
+.col-1-2{
+    flex-basis: 50%;
+    padding: 10px;
+}
+.col-1-2 h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #3b506c;
+}
+.col-1-2 h2.number{
+    color: tomato;
+    text-align: right;
+}
+.col-1-2 p{
+    text-align: end;
+}
+
+
+.services_section{
+    width: calc(100% - 200px);
+    margin: auto;
+}
+.col-1-3{
+    flex-basis: 33.33%;
+    padding: 10px;
+}
+.service{
+    padding: 100px 35px;
+}
+.color1{
+    background: rgb(255 228 232);
+}
+.color2{
+    background: rgb(227 249 241);
+}
+.color3{
+    background: rgb(255 245 224);
+}
+.service img{
+    height: 250px;
+}
+.service h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #3f3d56;
+}
+.service p{color: #3f3d56;}
+
+footer{background: #4585f9;
+	padding: 25px 0;
+	text-align: center;}
+footer p{
+    color: #3f3d56;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
